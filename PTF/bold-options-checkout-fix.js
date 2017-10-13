@@ -1,3 +1,4 @@
+// BOLD: POv2 checkout fix
 if (typeof(Storage) !== "undefined") {
   if(!sessionStorage._bold_history) {
     sessionStorage.setItem('_bold_history', document.URL);
